@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zhD-de-I3n">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Layout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbL-Qm-P4d">
+                                <rect key="frame" x="16" y="80" width="150" height="60"/>
+                                <color key="backgroundColor" red="0.0017400244250893593" green="0.99337679147720337" blue="0.77290505170822144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0XB-ub-Wdo">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="hIb-bz-4bH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="33"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button D">
+                                    <color key="titleColor" red="0.081302918493747711" green="0.19063368439674377" blue="0.77773100137710571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonDTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRg-Vm-r0G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vad-Zg-qj6">
+                                <rect key="frame" x="209" y="80" width="150" height="60"/>
+                                <color key="backgroundColor" red="0.86770254373550415" green="0.99250990152359009" blue="0.0015776297077536583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="BX9-e1-lAX">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="IH7-G9-gGE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="33"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button E">
+                                    <color key="titleColor" red="0.081302918493747711" green="0.19063368439674377" blue="0.77773100137710571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonETapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJe-V5-1U4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYb-0g-4Oi">
+                                <rect key="frame" x="16" y="502.5" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.73974937200546265" green="0.018865088000893593" blue="0.98297244310379028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="eOa-Ib-Agh">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="frH-hE-j80"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="43"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button B">
+                                    <color key="titleColor" red="0.081302918493747711" green="0.19063368439674377" blue="0.77773100137710571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonBTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9m-gS-tCB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YE4-xw-2qm">
+                                <rect key="frame" x="16" y="434" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.73974937200546265" green="0.018865088000893593" blue="0.98297244310379028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="br0-Xp-yKI">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="vZZ-Zb-tN4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="43"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button C">
+                                    <color key="titleColor" red="0.081302918493747711" green="0.19063368439674377" blue="0.77773100137710571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonCTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DiP-2z-LK2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfb-PO-hBw">
+                                <rect key="frame" x="16" y="571" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.73974937200546265" green="0.018865088000893593" blue="0.98297244310379028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="4V5-56-JeN"/>
+                                    <constraint firstAttribute="height" constant="60" id="XzD-FJ-V4H">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="43"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <state key="normal" title="Button A">
+                                    <color key="titleColor" red="0.081302918493747711" green="0.19063368439674377" blue="0.77773100137710571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonATapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b2X-cA-JIw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VYb-0g-4Oi" secondAttribute="trailing" constant="16" id="2dR-10-97G">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YE4-xw-2qm" secondAttribute="trailing" constant="16" id="5Vx-JO-Way">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="YE4-xw-2qm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6Dj-97-M3x">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="bfb-PO-hBw" firstAttribute="firstBaseline" secondItem="VYb-0g-4Oi" secondAttribute="baseline" constant="68.5" id="7h8-dB-Yi2"/>
+                            <constraint firstItem="Vad-Zg-qj6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="9jm-s1-Uij"/>
+                            <constraint firstItem="VYb-0g-4Oi" firstAttribute="firstBaseline" secondItem="YE4-xw-2qm" secondAttribute="baseline" constant="67.5" id="DaY-sD-bur"/>
+                            <constraint firstItem="MbL-Qm-P4d" firstAttribute="width" secondItem="Vad-Zg-qj6" secondAttribute="width" id="FL5-kn-naV"/>
+                            <constraint firstItem="bfb-PO-hBw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="GtU-vj-MKx">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="VYb-0g-4Oi" firstAttribute="top" secondItem="YE4-xw-2qm" secondAttribute="bottom" constant="8.5" id="Gtq-bD-qYI"/>
+                            <constraint firstItem="bfb-PO-hBw" firstAttribute="top" secondItem="VYb-0g-4Oi" secondAttribute="bottom" constant="8.5" id="Igq-JA-1wj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bfb-PO-hBw" secondAttribute="trailing" constant="16" id="KqG-U7-5MW">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="MbL-Qm-P4d" firstAttribute="height" secondItem="Vad-Zg-qj6" secondAttribute="height" id="ThA-fQ-ma6"/>
+                            <constraint firstItem="bfb-PO-hBw" firstAttribute="top" secondItem="VYb-0g-4Oi" secondAttribute="bottom" constant="8.5" id="VLO-fF-OFT"/>
+                            <constraint firstItem="VYb-0g-4Oi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Wzd-0N-IWg">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="Vad-Zg-qj6" firstAttribute="leading" secondItem="MbL-Qm-P4d" secondAttribute="trailing" constant="43" id="cFr-F9-ZZk"/>
+                            <constraint firstItem="MbL-Qm-P4d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cff-XX-Z4S">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="VYb-0g-4Oi" firstAttribute="top" secondItem="YE4-xw-2qm" secondAttribute="bottom" constant="8.5" id="h2S-0C-qb9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bfb-PO-hBw" secondAttribute="bottom" constant="36" id="o2k-Zy-wvm"/>
+                            <constraint firstItem="MbL-Qm-P4d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="qIE-Ui-chd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vad-Zg-qj6" secondAttribute="trailing" constant="16" id="uqB-HM-vgD">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="MbL-Qm-P4d" firstAttribute="width" secondItem="Vad-Zg-qj6" secondAttribute="width" id="wLh-2C-TL5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Auto Layout" id="Afo-dD-aRn">
+                        <barButtonItem key="rightBarButtonItem" image="arrow.clockwise" catalog="system" id="CM9-8o-XIZ">
+                            <connections>
+                                <action selector="refreshItemTapped:" destination="BYZ-38-t0r" id="EQp-DP-cWO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonBOutlet" destination="VYb-0g-4Oi" id="IGd-Pm-ueI"/>
+                        <outlet property="buttonCOutlet" destination="YE4-xw-2qm" id="RoN-7M-YAl"/>
+                        <outlet property="buttonDOutlet" destination="MbL-Qm-P4d" id="15I-yx-fZA"/>
+                        <outlet property="buttonEOutlet" destination="Vad-Zg-qj6" id="5o5-VM-M3W"/>
+                        <outletCollection property="styleOutletsCollection" destination="bfb-PO-hBw" collectionClass="NSMutableArray" id="P3A-Sx-W60"/>
+                        <outletCollection property="styleOutletsCollection" destination="MbL-Qm-P4d" collectionClass="NSMutableArray" id="DNb-wg-Eq2"/>
+                        <outletCollection property="styleOutletsCollection" destination="Vad-Zg-qj6" collectionClass="NSMutableArray" id="TML-kM-Inp"/>
+                        <outletCollection property="styleOutletsCollection" destination="YE4-xw-2qm" collectionClass="NSMutableArray" id="o7c-Km-lm8"/>
+                        <outletCollection property="styleOutletsCollection" destination="VYb-0g-4Oi" collectionClass="NSMutableArray" id="6Dp-6j-nw8"/>
+                        <outletCollection property="styleOutletsCollection" destination="bfb-PO-hBw" collectionClass="NSMutableArray" id="3Ac-ea-xwq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026.4000000000001" y="72.413793103448285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eUf-AE-TUv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zhD-de-I3n" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PSu-a4-zmU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.67273658510000001" green="0.51557576660000004" blue="0.87603706120000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="32"/>
+                            <color key="textColor" systemColor="systemBlueColor"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eID-jh-HqA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmo-et-8av" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="72.887323943661968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
